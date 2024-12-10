@@ -1,0 +1,23 @@
+{
+  "name": "flashloan_evm",
+  "version": "1.0.0",
+  "description": "flashloan",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Jackson",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.17"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.1.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2"
+  }
+}
